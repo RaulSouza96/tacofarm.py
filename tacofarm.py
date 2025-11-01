@@ -13,7 +13,9 @@ TOKEN = os.getenv("DISCORD_TOKEN")
 CATEGORIA_TICKETS_ID = 1434071693835501740
 CATEGORIA_ANALISE_ID = 1434227571444420608
 ADM_ROLE_ID = 1433844350848208976  # Cargo que pode aprovar/recusar
-
+ADM_ROLE_ID = 1434020807272693843
+ADM_ROLE_ID = 1434229537368969256
+ADM_ROLE_ID = 1434229692877115423
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
 bot.logs_channel_id = None
